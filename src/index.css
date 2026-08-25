@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-quran {
+    font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+  }
+  .font-cairo {
+    font-family: 'Cairo', sans-serif;
+  }
+}
+
+/* Custom Islamic pattern subtle backgrounds */
+.bg-islamic-pattern {
+  background-color: transparent;
+  background-image: radial-gradient(rgba(16, 185, 129, 0.08) 1px, transparent 1px), radial-gradient(rgba(217, 119, 6, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.dark .bg-islamic-pattern {
+  background-image: radial-gradient(rgba(16, 185, 129, 0.05) 1px, transparent 1px), radial-gradient(rgba(245, 158, 11, 0.05) 1px, transparent 1px);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.5);
+}
+

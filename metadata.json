@@ -1,0 +1,10 @@
+{
+  "name": "Noor Islamic App",
+  "description": "التطبيق الإسلامي الشامل - القرآن الكريم، مواقيت الصلاة والقبلة، الأذكار والمسبحة، أسماء الله الحسنى، الإذاعة، وتدبر القرآن بالذكاء الاصطناعي",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
